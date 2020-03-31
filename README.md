@@ -16,8 +16,10 @@
 
 #### How to initialize/run your application (where applicable)
 
-* node index.js - a "add note"
-* node index.js - c "add category"
+* node index.js - a "add note" - c "add category" // to add note and category.
+* node index.js -d " specific ID" // how to delete from the database 
+* node index.js -l  || -l "category name" // how to list notes name or category. 
+
 
 
 #### Tests
@@ -31,4 +33,4 @@
 
 #### UML
 
-![](./assets/image/nodeEcoSystem.jpg)
+![](./assets/image/mongo.model.jpg)
