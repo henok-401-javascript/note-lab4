@@ -2,9 +2,9 @@
 const mongoose = require('mongoose');
 const minimist = require('minimist');
 // const schemaModule = require('./models/note.schema.js');
+const Model = require('./models/notes-model.js');
 const Input = require('./lib/input.js');
 const NoteHandler = require('./lib/notes');
-const Model = require('./models/notes-model.js');
 
 const URLDB = 'mongodb://localhost:27017/app';
 const args = process.argv.slice(2);

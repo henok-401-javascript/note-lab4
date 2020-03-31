@@ -1,14 +1,14 @@
 'use strict';
-const myModel = require('../models/notes-model.js');
+const Model = require('../models/notes-model.js');
 const supergoose = require('@code-fellows/supergoose');
 
 
 fakeData(async () => {
-  await schemaModel.create({
+  await Model.create({
     text: 'henok\'s fake data',
     category: 'human',
   });
-  await schemaModel.create({
+  await Model.create({
     text: 'dog',
     category: 'animal',
   });
@@ -18,7 +18,7 @@ fakeData(async () => {
 
 describe('save to database', () => {
   it('for truthy value', async () => {
-    let TestDBA = await schemaModel.create({
+    let TestDBA = await Model.create({
       text: 'henok fake data',
       category: 'human',
     });

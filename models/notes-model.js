@@ -6,6 +6,7 @@ const mongoose = require('mongoose');
 
 
 
+
 class Model {
 
   constructor(modelSchena) {
