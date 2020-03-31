@@ -3,11 +3,11 @@ const mongoose = require('mongoose');
 
 const NoteModule = mongoose.Schema({
   text: { type: 'string', require: true },
-  categorey: { type: 'string' },
+  category: { type: 'string' },
 });
 
-const schemaModule = mongoose.model('notes', NoteModule);
+const model = mongoose.model('notes', NoteModule);
 
 
 
-module.exports = schemaModule;
+module.exports = model;

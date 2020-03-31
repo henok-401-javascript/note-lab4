@@ -21,6 +21,7 @@
   "homepage": "https://github.com/henok-401-javascript/note-lab4#readme",
   "dependencies": {
     "minimist": "^1.2.5",
-    "mongoose": "^5.9.6"
+    "mongoose": "^5.9.6",
+    "supergoose": "^0.2.6"
   }
 }
