@@ -14,7 +14,7 @@ class Model {
   }
 
 
-  async add(text, category) {
+  async read(text, category) {
 
     try {
       let newModule = new ModelDB({
